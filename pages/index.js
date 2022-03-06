@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
 import Login from "../components/Login";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="">
+      <main className="bg-[#1A202C]">
         <Login />
       </main>
     </div>
