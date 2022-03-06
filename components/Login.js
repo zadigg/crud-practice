@@ -41,16 +41,16 @@ function Login() {
             <label htmlFor="">
               <span className="w-full block font-mono font-bold">EMAIL</span>
               <input
-                className="w-full block p-[10px] rounded-md shadow-lg"
+                className="w-full block mt-2 p-[10px] rounded-md shadow-lg"
                 type="text"
               />
             </label>
           </div>
-          <div>
+          <div className="">
             <label htmlFor="">
               <span className="w-full block font-mono font-bold">PASSWORD</span>
               <input
-                className="w-full block p-[10px] rounded-md shadow-lg"
+                className="w-full block mt-2 p-[10px] rounded-md shadow-lg"
                 type="password"
               />
             </label>
