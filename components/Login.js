@@ -2,7 +2,7 @@ import React from "react";
 
 function Login() {
   return (
-    <div className="flex justify-center h-screen items-center">
+    <div className="flex justify-center h-screen items-center space-y-2">
       {" "}
       <div className="bg-[#E2E8F0] p-4 rounded-lg w-full max-w-sm ">
         {/*  */}

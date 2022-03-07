@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Login from "../components/Login";
+import Mukera from "../components/Mukera";
 
 export default function Home() {
   return (
@@ -11,8 +12,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="bg-[#1A202C]">
-        <Login />
+      <main className="bg-[#1A202C] h-screen">
+        {/* <Login /> */}
+        <Mukera />
       </main>
     </div>
   );
