@@ -5,6 +5,7 @@ import { collection, onSnapshot, onSnapShotsInSync } from "firebase/firestore";
 
 function Mukera() {
   const [Names, setNames] = useState([]);
+
   useEffect(
     () =>
       onSnapshot(collection(db, "Login"), (snapshot) =>
@@ -26,7 +27,7 @@ function Mukera() {
         </div>
         <div className="">
           <button className="bg-yellow-600 p-1 rounded-lg shadow-lg text-white ">
-            <input type="submit" placeholder="Name" />
+            Submit
           </button>
         </div>
       </div>
